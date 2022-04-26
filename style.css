@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  background-color: #132743;
+}
+
+.header{
+  width: 80%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #142d4c;
+  color: white;
+  margin: auto;
+  padding: 5px;
+  margin-top: 20px;
+  box-shadow: inset 5px 5px 5px #385170,
+              inset -5px -5px 5px #1a2639;
+  letter-spacing: 1px;
+}
+
+.container{
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+  width: 80%;
+  height: 90%;
+  background-color: #142d4c;
+  box-shadow: inset 5px 5px 5px #385170,
+  inset -5px -5px 5px #1a2639;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.container .card{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #005689;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #081f37,
+              inset 5px 5px 5px #0092ca,
+              inset -5px -5px 5px #183661;
+}
+
+.container .card h3{
+  margin: 10px;
+  color: white;
+}
+
+.container .card img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 70%;
+  width: 70%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+
